@@ -1,10 +1,22 @@
 # SecureShop API — Local API Security Assessment Lab
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-REST%20API-000000?style=for-the-badge&logo=flask&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-Database-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![JWT](https://img.shields.io/badge/Auth-JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Postman](https://img.shields.io/badge/Tested%20with-Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Tested%20with-Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
+![Local Only](https://img.shields.io/badge/Deployment-Local%20Only-critical?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Educational-blue?style=for-the-badge)
+
 A lightweight, fully local REST API built for hands-on **API security testing practice** using Burp Suite and Postman. Everything — the application, the database, and the data — runs entirely on your own machine. Nothing connects to the internet, a cloud service, or any real organization.
 
 This is a **fictional e-commerce company ("SecureShop")** implemented twice, in parallel:
 1. A **secure API** with production-style defensive controls, so you have a correct reference implementation to compare against.
 2. An optional, clearly separated **Training Mode** with intentionally weakened versions of the same endpoints, so you can practice discovering real vulnerability patterns safely.
+
+> 📌 **Add your own screenshots here once you start testing** — a Postman run showing a successful login, a Burp Suite Repeater tab mid-tamper, or your terminal with the app running all make a strong visual for this section. Save them to `docs/screenshots/` and reference them like:
+> `![Postman login test](docs/screenshots/postman-login.png)`
 
 ---
 
@@ -12,7 +24,7 @@ This is a **fictional e-commerce company ("SecureShop")** implemented twice, in 
 
 - This is an **authorized local training lab only**. Do not deploy it anywhere other than your own machine.
 - Never point it at real user data, real credentials, or any external system.
-- Training Mode intentionally contains weakened security controls for learning purposes never enable it outside local practice, and never expose this server to a shared network or the internet.
+- Training Mode intentionally contains weakened security controls for learning purposes — never enable it outside local practice, and never expose this server to a shared network or the internet.
 - You are responsible for using this project in line with your own organization's policies and applicable law.
 
 ---
@@ -175,6 +187,8 @@ Every response follows the same JSON envelope:
 4. Work through the requests: Register → Login → Profile → Products → Create Order → Order History → Admin routes.
 5. For each request, try both the "happy path" and deliberately bad input — wrong types, missing fields, someone else's resource ID, etc.
 
+> 📌 *Screenshot idea: capture your Postman "Login" request/response pair here, showing status `200` and the returned token.*
+
 ### With Burp Suite
 
 1. Start the Flask app (`python app.py`).
@@ -182,6 +196,8 @@ Every response follows the same JSON envelope:
 3. Send a few requests through Postman so they show up in **Proxy → HTTP history**.
 4. Right-click any request → **Send to Repeater** to manually tamper with headers, JSON bodies, IDs, and JWTs, then resend.
 5. Use **Intruder** to test rate limiting on `/api/login` (you should see the API push back after a few failed attempts).
+
+> 📌 *Screenshot idea: capture a Repeater tab showing a tampered order ID request and the API's response.*
 
 ### A Suggested Testing Order
 
@@ -243,4 +259,6 @@ Covers the health check, registration, weak-password rejection, login, the auth-
 
 ## License / Attribution
 
-Educational project. Fictional company, fictional data, local use only From @Aditya Bhosale.
+Educational project. Fictional company, fictional data, local use only.
+
+Built by **Aditya Bhosale**.
