@@ -15,8 +15,7 @@ This is a **fictional e-commerce company ("SecureShop")** implemented twice, in 
 1. A **secure API** with production-style defensive controls, so you have a correct reference implementation to compare against.
 2. An optional, clearly separated **Training Mode** with intentionally weakened versions of the same endpoints, so you can practice discovering real vulnerability patterns safely.
 
-> 📌 **Add your own screenshots here once you start testing** — a Postman run showing a successful login, a Burp Suite Repeater tab mid-tamper, or your terminal with the app running all make a strong visual for this section. Save them to `docs/screenshots/` and reference them like:
-> `![Postman login test](docs/screenshots/postman-login.png)`
+> 📌 
 
 ---
 
