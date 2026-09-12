@@ -243,4 +243,4 @@ Covers the health check, registration, weak-password rejection, login, the auth-
 
 ## License / Attribution
 
-Educational project. Fictional company, fictional data, local use only.
+Educational project. Fictional company, fictional data, local use only From @Aditya Bhosale.
