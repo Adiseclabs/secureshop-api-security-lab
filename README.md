@@ -15,7 +15,8 @@ This is a **fictional e-commerce company ("SecureShop")** implemented twice, in 
 1. A **secure API** with production-style defensive controls, so you have a correct reference implementation to compare against.
 2. An optional, clearly separated **Training Mode** with intentionally weakened versions of the same endpoints, so you can practice discovering real vulnerability patterns safely.
 
-> 📌 
+> 📌 <img width="1602" height="995" alt="image" src="https://github.com/user-attachments/assets/bf56ea7d-8593-4866-90e6-5e8f0fd2f958" />
+
 
 ---
 
