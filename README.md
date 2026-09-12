@@ -15,7 +15,7 @@ This is a **fictional e-commerce company ("SecureShop")** implemented twice, in 
 1. A **secure API** with production-style defensive controls, so you have a correct reference implementation to compare against.
 2. An optional, clearly separated **Training Mode** with intentionally weakened versions of the same endpoints, so you can practice discovering real vulnerability patterns safely.
 
->  <img width="1502" height="895" alt="image" src="https://github.com/user-attachments/assets/bf56ea7d-8593-4866-90e6-5e8f0fd2f958" />
+>  anotherimg
 
 
 ---
@@ -187,7 +187,7 @@ Every response follows the same JSON envelope:
 4. Work through the requests: Register → Login → Profile → Products → Create Order → Order History → Admin routes.
 5. For each request, try both the "happy path" and deliberately bad input — wrong types, missing fields, someone else's resource ID, etc.
 
-> 📌 *Screenshot idea: capture your Postman "Login" request/response pair here, showing status `200` and the returned token.*
+> 📌 <img width="1502" height="895" alt="image" src="https://github.com/user-attachments/assets/bf56ea7d-8593-4866-90e6-5e8f0fd2f958" />
 
 ### With Burp Suite
 
