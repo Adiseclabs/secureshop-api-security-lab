@@ -1,0 +1,42 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+database/*.db
+instance/
+
+# Secrets / config
+.env
+*.pem
+*.key
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyc
+.pytest_cache/
+
+# Logs
+*.log
+logs/
+
+# Reports (local testing output, never commit findings)
+reports/*.json
+reports/*.txt
+!reports/.gitkeep
+
+# OS / editor junk
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Training mode internal state (never commit which vulns are active)
+config/.training_state.json
