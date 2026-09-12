@@ -12,7 +12,7 @@ This is a **fictional e-commerce company ("SecureShop")** implemented twice, in 
 
 - This is an **authorized local training lab only**. Do not deploy it anywhere other than your own machine.
 - Never point it at real user data, real credentials, or any external system.
-- Training Mode intentionally contains weakened security controls for learning purposes — never enable it outside local practice, and never expose this server to a shared network or the internet.
+- Training Mode intentionally contains weakened security controls for learning purposes never enable it outside local practice, and never expose this server to a shared network or the internet.
 - You are responsible for using this project in line with your own organization's policies and applicable law.
 
 ---
