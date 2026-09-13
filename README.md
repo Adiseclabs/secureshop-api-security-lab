@@ -1,4 +1,6 @@
-# SecureShop API — Local API Security Assessment Lab
+# SecureShop API (Local API Security Assessment Lab)
+<img width="2752" height="722" alt="Gemini_Generated_Image_tzegnktzegnktzeg" src="https://github.com/user-attachments/assets/92c676f1-c279-4291-ab02-1cdcfd495a30" />
+
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-REST%20API-000000?style=for-the-badge&logo=flask&logoColor=white)
