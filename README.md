@@ -17,7 +17,7 @@ This is a **fictional e-commerce company ("SecureShop")** implemented twice, in 
 1. A **secure API** with production-style defensive controls, so you have a correct reference implementation to compare against.
 2. An optional, clearly separated **Training Mode** with intentionally weakened versions of the same endpoints, so you can practice discovering real vulnerability patterns safely.
 
->  anotherimg
+>  :)
 
 
 ---
@@ -199,7 +199,6 @@ Every response follows the same JSON envelope:
 4. Right-click any request → **Send to Repeater** to manually tamper with headers, JSON bodies, IDs, and JWTs, then resend.
 5. Use **Intruder** to test rate limiting on `/api/login` (you should see the API push back after a few failed attempts).
 
-> 📌 *Screenshot idea: capture a Repeater tab showing a tampered order ID request and the API's response.*
 
 ### A Suggested Testing Order
 
